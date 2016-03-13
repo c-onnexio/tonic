@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <meta name="copyright" content="Copyright la.蔵 All Rights Reserved." />
+    <meta name="copyright" content="Copyright Tonic All Rights Reserved." />
 
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/blog.css" />
-    <link rel="stylesheet" type="text/css" href="./css/general.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/docs.min.js"></script>
@@ -41,16 +41,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="first">
-                        <a href="/">トップ</a>
+                        <a href="#news">お知らせ</a>
                     </li>
                     <li>
-                        <a href="/about">プロフィール</a>
+                        <a href="#about">プロフィール</a>
                     </li>
                     <li>
-                        <a href="/blog">ニュース</a>
-                    </li>
-                    <li>
-                        <a href="/questionnaire">お問いあわせ</a>
+                        <a href="#music">楽曲</a>
                     </li>
                 </ul>
             </div>
@@ -107,7 +104,7 @@
     <!-- /row -->
     <div class="contents">
         <div class="row">
-            <div class="top-news col-sm-7">
+            <div id="news" class="top-news col-sm-7">
                 <h1>What's NEW??</h1>
                 <div class="news-box">
                     <p>2015 - 10 - 10 ~ 12 - 10</p>
@@ -133,42 +130,11 @@
         </div>
         <!-- /row -->
     </div>
-    <!-- /carousel-box -->
-    <div class="contents visible-xs">
-        <div class="container">
-            <section id="top-sp-contents">
-                <div class="media">
-                    <div class="media-left">
-                        <img class="media-object" src="./img/top/carousel.jpg" />
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">今月の活動</h4>
-                        <p>ううぉおおおおおおおおおおおおおおおおおおおおお</p>
-                    </div>
-                </div>
-                <hr />
-                <!-- /media -->
-                <div class="media">
-                    <div class="media-body">
-                        <h4 class="media-heading">来月の活動</h4>
-                        <p>ううぉおおおおおおおおおおおおおおおおおおおお</p>
-                    </div>
-                    <div class="media-right">
-                        <img class="media-object" src="./img/top/carousel.jpg" />
-                    </div>
-                </div>
-                <!-- /media -->
-            </section>
-            <!-- /top-sp-contents -->
-        </div>
-        <!-- /container -->
-    </div>
-    <!-- /contents -->
 </div>
 <!-- /container -->
 <div class="contents">
     <div class="container">
-        <section id="intro">
+        <section id="about">
             <h2 class="title">- トニックのプロフィール -</h2>
             <!-- /title -->
             <div class="row">
@@ -208,7 +174,7 @@
                         </ul>
                     </div>
                     <hr />
-                    <div class="music">
+                    <div class="music" id="music">
                         <h2>オリジナル楽曲</h2>
                         <ul>
                             <li>「マイドリームGO!GO!」(作詞・作曲・編曲：斉藤一)</li>
@@ -252,7 +218,7 @@
                 <img src="./img/top/tonic.png " alt="フッターロゴ" />
             </a>
             <div>
-                <span>お問い合わせは<b><a href="/questionnaire">こちら</a></b>まで☆</span>
+                <span>お問い合わせは<b><a href="mailto:okamoto.h1007@gmail.com?subject=問い合わせ&amp;body=お問い合わせ内容をご記入ください">こちら</a></b>まで☆</span>
             </div>
         </div>
         <!-- /footer-logo -->
