@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/*-------------------------------------------
+    GT10 企業情報 index.html
+-------------------------------------------*/
+.ceo {
+  padding: 50px 0 100px;
+}
+.ceo .img-lr {
+  margin-bottom: 70px;
+}
+.ceo .img-lr .section-title {
+  font-size: 32px;
+  margin-bottom: 70px;
+}
+.ceo .img-lr .text {
+  width: 69.5%;
+}
+.ceo .img-lr .text p {
+  color: #666;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.ceo .img-lr .img {
+  width: 25.2%;
+}
+.ceo .img-lr .img img {
+  width: 100%;
+}
+.ceo .career .name {
+  color: #505050;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.ceo .career .name span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.ceo .career li {
+  color: #666;
+  margin-bottom: 3px;
+}
+@media (max-width: 992px) {
+  .ceo {
+    padding: 40px 0 80px;
+  }
+  .ceo .img-lr {
+    margin-bottom: 50px;
+  }
+  .ceo .img-lr .section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .ceo .img-lr .text p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 640px) {
+  .ceo .img-lr .img {
+    width: 100%;
+    float: none!important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ceo .img-lr .img img {
+    max-width: 170px;
+  }
+  .ceo .img-lr .text {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .ceo {
+    padding: 20px 0 60px;
+  }
+  .ceo .img-lr {
+    margin-bottom: 30px;
+  }
+  .ceo .img-lr .section-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .ceo .img-lr .text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .ceo .career li {
+    margin-bottom: 10px;
+  }
+}
+.board-member {
+  border-top: 1px solid #d2d2d2;
+  padding: 80px 0 90px;
+}
+.board-member .section-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.board-member .name {
+  color: #505050;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.board-member .name span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.board-member .img-lr {
+  margin-bottom: 30px;
+}
+.board-member .img-lr .text {
+  width: 75%;
+}
+.board-member .img-lr .text li {
+  margin-bottom: 3px;
+}
+.board-member .img-lr .img {
+  width: 23.5%;
+}
+.board-member .img-lr .img img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .board-member {
+    padding: 40px 0 60px;
+  }
+  .board-member .section-title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 480px) {
+  .board-member {
+    padding: 30px 0 40px;
+  }
+  .board-member .section-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .board-member .img-lr .img {
+    width: 100%;
+    float: none!important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .board-member .img-lr .img img {
+    max-width: 140px;
+  }
+  .board-member .img-lr .text {
+    width: 100%;
+  }
+  .board-member .img-lr .text li {
+    margin-bottom: 10px;
+  }
+}
+/*-------------------------------------------
+    GT15 会社概要 company.html
+-------------------------------------------*/
+.company {
+  padding: 60px 0 100px;
+}
+.company .section-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.company table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.company table th {
+  color: #787878;
+  font-weight: 500;
+  width: 23.5%;
+}
+.company table td {
+  color: #505050;
+  width: 76.5%;
+}
+.company table th,
+.company table td {
+  border-top: 1px solid #e9e9e9;
+  padding: 20px;
+  vertical-align: top;
+}
+.company table th.business,
+.company table td.business {
+  line-height: 1.8;
+}
+.company table th p,
+.company table td p {
+  margin: 0;
+}
+.company table th .mar-b,
+.company table td .mar-b {
+  margin-bottom: 40px;
+}
+.company table th.larger,
+.company table td.larger {
+  font-size: 18px;
+  padding-top: 44px;
+}
+.company table th.larger.last,
+.company table td.larger.last {
+  padding-top: 14px;
+}
+.company table th.pad-t,
+.company table td.pad-t {
+  padding-top: 50px;
+}
+.company table th.last,
+.company table td.last {
+  border-top: none;
+  padding-top: 20px;
+}
+.company table th .googlemap,
+.company table td .googlemap {
+  margin: 20px 0;
+}
+.company table th ul,
+.company table td ul {
+  margin: 0;
+}
+.company table th li:not(:last-child),
+.company table td li:not(:last-child) {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .company {
+    padding: 40px 0 100px;
+  }
+  .company .section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .company .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .company table th,
+  .company table td {
+    display: block;
+    width: 100%;
+    padding: 20px!important;
+    font-size: 14px!important;
+    border-top: 1px solid #e9e9e9!important;
+  }
+  .company table th {
+    background: #f7f7f7;
+  }
+}
+.googlemap {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.googlemap.simple-link {
+  padding: 0;
+  height: auto;
+  text-align: center;
+}
+.googlemap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
